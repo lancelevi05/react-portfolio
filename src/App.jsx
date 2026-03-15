@@ -48,7 +48,7 @@ const teamMembers = [
     image: profile2,
     studentId: "2023-0088",
     //department: "BS Information Technology",
-    education: "3rd Year",
+    education: ["ACLC College of Ormoc"],
     contact: "jearwin@gmail.com",
     skills: [
       { name: "Java", icon: javaIcon },
@@ -60,7 +60,7 @@ const teamMembers = [
 
 
     ],
-    bio: "Designs intuitive layouts and visual systems that keep interfaces consistent and easy to use.",
+    bio: "A 2nd-year BSIT student at ACLC College of Ormoc who focuses on creating intuitive and user-friendly interface designs. He designs clean layouts and visual systems that improve usability, maintain consistency, and enhance the overall user experience.",
   },
   {
     id: "lance-levi-java",
