@@ -29,16 +29,16 @@ const teamMembers = [
     contact: ["yuanalcuetas2006@gmail.com",
       "09925240270"],
     skills: [
-  { name: "Java", icon: javaIcon },
-  { name: "PHP", icon: phpIcon },
-  { name: "JavaScript", icon: jsIcon },
-  { name: "MySQL", icon: mysqlIcon },
-  { name: "HTML", icon: htmlIcon },
-  
-  { name: "React", icon: reactIcon },
-  { name: "Tailwind", icon: tailwindIcon },
+      { name: "Java", icon: javaIcon },
+      { name: "PHP", icon: phpIcon },
+      { name: "JavaScript", icon: jsIcon },
+      { name: "MySQL", icon: mysqlIcon },
+      { name: "HTML", icon: htmlIcon },
 
-],
+      { name: "React", icon: reactIcon },
+      { name: "Tailwind", icon: tailwindIcon },
+
+    ],
     bio: "I am a 2nd year BSIT student passionate about full-stack web development and building functional, user-friendly applications. I enjoy working on both front-end and back-end technologies to create complete web solutions. Currently, I am also pursuing cybersecurity to expand my skills in building secure and reliable systems.",
   },
   {
@@ -51,15 +51,15 @@ const teamMembers = [
     education: "3rd Year",
     contact: "jearwin@gmail.com",
     skills: [
-  { name: "Java", icon: javaIcon },
-  { name: "PHP", icon: phpIcon },
-  { name: "JavaScript", icon: jsIcon },
+      { name: "Java", icon: javaIcon },
+      { name: "PHP", icon: phpIcon },
+      { name: "JavaScript", icon: jsIcon },
 
 
 
 
 
-],
+    ],
     bio: "Designs intuitive layouts and visual systems that keep interfaces consistent and easy to use.",
   },
   {
@@ -73,21 +73,21 @@ const teamMembers = [
       "New Ormoc City National High School",
       "ACLC College of Ormoc(SHS)"
     ],
-    
+
     contact: ["lancelevi05@mail.com"],
     skills: [
-  { name: "Java", icon: javaIcon },
-  { name: "PHP", icon: phpIcon },
-  { name: "JavaScript", icon: jsIcon },
-  { name: "MySQL", icon: mysqlIcon },
-  { name: "HTML", icon: htmlIcon },
-  { name: "React", icon: reactIcon },
+      { name: "Java", icon: javaIcon },
+      { name: "PHP", icon: phpIcon },
+      { name: "JavaScript", icon: jsIcon },
+      { name: "MySQL", icon: mysqlIcon },
+      { name: "HTML", icon: htmlIcon },
+      { name: "React", icon: reactIcon },
 
 
- 
 
 
-],
+
+    ],
     bio: "I am a 2nd-year Bachelor of Science in Information Technology (BSIT) student with a strong interest in backend development. I am currently expanding my knowledge in cybersecurity to complement my backend development skills. I am passionate about learning new technologies and continuously improving my technical abilities to build secure and efficient systems.",
   },
 ];
@@ -163,20 +163,32 @@ function HomePage() {
           <div className="projects-grid">
             <div className="card">
               <h3>Student Violation System</h3>
+              <br></br>
+              <hr></hr>
+              <br></br>
               <p>
-                Designed to track and manage student misconduct or rule-breaking incidents within an educational
-                institution.
+              A PHP-based system  A system designed to record and manage student misconduct within a school. It helps administrators track violations and maintain organized disciplinary records.
               </p>
             </div>
 
             <div className="card">
-              <h3>Fitness Tracker</h3>
-              <p>File reports then submit to the administrator and notify to the advisers.</p>
+              <h3>School Asset Management System</h3>
+              <br></br>
+              <hr></hr>
+              <br></br>
+              <p>
+                A Java-based system used to manage and track school assets such as computers, equipment, and furniture. It helps administrators monitor inventory, assignments, and maintenance records efficiently.
+              </p>
             </div>
 
             <div className="card">
-              <h3>Analytics Dashboard</h3>
-              <p>Real-time charts and business analytics visualization.</p>
+              <h3>School Entrance Exam Management System</h3>
+              <br></br>
+              <hr></hr>
+              <br></br>
+              <p>
+                A Java-based system designed to manage student applications, exam schedules, and entrance exam results. It helps streamline the admission process and organize applicant data efficiently.
+              </p>
             </div>
           </div>
         </div>
@@ -249,22 +261,22 @@ function TeamMemberPage() {
               <li>{member.contact}</li>
             )}
           </ul>
-          
+
           <p>{member.department}</p>
         </div>
 
         <div className="sidebar-section">
-  <h3>Skills</h3>
+          <h3>Skills</h3>
 
-  <div className="skills-grid">
-    {member.skills.map((skill, index) => (
-      <div key={`${skill.name}-${index}`} className="skill-icon">
-        <img src={skill.icon} alt={skill.name} />
-      </div>
-    ))}
-  </div>
+          <div className="skills-grid">
+            {member.skills.map((skill, index) => (
+              <div key={`${skill.name}-${index}`} className="skill-icon">
+                <img src={skill.icon} alt={skill.name} />
+              </div>
+            ))}
+          </div>
 
-</div>
+        </div>
       </aside>
 
       {/* RIGHT CONTENT */}
