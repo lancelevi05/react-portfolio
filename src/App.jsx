@@ -10,6 +10,7 @@ import jsIcon from "./assets/skill-icon/java-script.png";
 import mysqlIcon from "./assets/skill-icon/mysql.png";
 import htmlIcon from "./assets/skill-icon/html.png";
 import reactIcon from "./assets/skill-icon/react.svg";
+import laravelIcon from "./assets/skill-icon/Laravel.png";
 import tailwindIcon from "./assets/skill-icon/tailwind-svgrepo-com.svg";
 
 
@@ -55,10 +56,6 @@ const teamMembers = [
       { name: "PHP", icon: phpIcon },
       { name: "JavaScript", icon: jsIcon },
 
-
-
-
-
     ],
     bio: "A 2nd-year BSIT student at ACLC College of Ormoc who focuses on creating intuitive and user-friendly interface designs. He designs clean layouts and visual systems that improve usability, maintain consistency, and enhance the overall user experience.",
   },
@@ -74,7 +71,7 @@ const teamMembers = [
       "ACLC College of Ormoc(SHS)"
     ],
 
-    contact: ["lancelevi05@mail.com"],
+    contact: ["lancelevi05@gmail.com", "09936303219"],
     skills: [
       { name: "Java", icon: javaIcon },
       { name: "PHP", icon: phpIcon },
@@ -82,10 +79,7 @@ const teamMembers = [
       { name: "MySQL", icon: mysqlIcon },
       { name: "HTML", icon: htmlIcon },
       { name: "React", icon: reactIcon },
-
-
-
-
+      { name: "Laravel", icon: laravelIcon },
 
     ],
     bio: "I am a 2nd-year Bachelor of Science in Information Technology (BSIT) student with a strong interest in backend development. I am currently expanding my knowledge in cybersecurity to complement my backend development skills. I am passionate about learning new technologies and continuously improving my technical abilities to build secure and efficient systems.",
@@ -167,7 +161,7 @@ function HomePage() {
               <hr></hr>
               <br></br>
               <p>
-              A PHP-based system  A system designed to record and manage student misconduct within a school. It helps administrators track violations and maintain organized disciplinary records.
+                A PHP-based system  A system designed to record and manage student misconduct within a school. It helps administrators track violations and maintain organized disciplinary records.
               </p>
             </div>
 
